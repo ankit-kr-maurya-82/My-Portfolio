@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ankit Kumar Maurya – Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<style>
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+</style>
+
+
+</head>
+<body class="bg-white text-gray-800">
+<div id="cursor" class="fixed pointer-events-none w-8 h-8 rounded-full border-2 border-indigo-600 
+    transform -translate-x-1/2 -translate-y-1/2 transition-transform duration-150 z-50"></div>
+    
+  <!-- Header -->
+  <header class="bg-gray-900 text-white shadow-md dark:bg-gray-800">
+    <div class="max-w-6xl mx-auto px-4 py-6 flex justify-between items-center" data-aos="fade-down">
+      <h1 class="text-2xl font-bold">Ankit Kumar Maurya</h1>
+      <nav class="space-x-6">
+        <a href="#about" class="hover:text-indigo-400 transition">About</a>
+        <a href="#projects" class="hover:text-indigo-400 transition">Projects</a>
+        <a href="#contact" class="hover:text-indigo-400 transition">Contact</a>
+        <!-- <a href="My Resume.docx" class="bg-indigo-500 px-3 py-1 rounded hover:bg-indigo-600 transition">Download CV</a>
+         -->
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero-section" class="text-center py-20  " data-aos="fade-up">
+    <h2 class="text-4xl font-bold mb-4 animate-bounce ">Hi, I'm Ankit 👋</h2>
+    <p class="text-lg text-gray-600 mb-6">A passionate Web Developer skilled in HTML, CSS, JavaScript and more.</p>
+    <img src="Ankit2.jpg" alt="Ankit" class="mx-auto w-40 h-40 rounded-full object-cover shadow-lg hover:scale-105 transition-transform duration-500">
+    <a href="#contact" class="mt-6 inline-block bg-indigo-600 text-white px-5 py-2 rounded hover:bg-indigo-700 transition">Contact Me</a>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-16 max-w-4xl mx-auto px-4" data-aos="fade-right">
+    <h3 class="text-3xl font-semibold mb-6">About Me</h3>
+    <p class="text-gray-700 leading-relaxed">I'm a web developer with a diploma in Web Development and Design. I enjoy creating clean and modern websites. Skilled in C, HTML, CSS, JavaScript, and web development best practices.</p>
+  </section>
+
+  <!-- Projects -->
+<section id="projects" class="bg-indigo-700 py-16">
+  <div class="max-w-6xl mx-auto px-4">
+    <h3 class="text-3xl font-semibold mb-10 text-center text-gray-100" data-aos="zoom-in">Projects</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      
+
+      <!-- Project Card 1 -->
+      <div
+        class="bg-white rounded-lg shadow-lg p-6 transform transition duration-500 hover:scale-105 hover:shadow-2xl"
+        data-aos="fade-up"
+        data-aos-delay="200"
+      >
+        <h4 class="text-xl font-bold mb-2 text-indigo-600">FoodMenu</h4>
+        <p class="text-gray-600 mb-4">The foodMenu.py script is a functional but basic command-line application for selecting and ordering food based on the time of day. It provides a structured and interactive menu system covering a wide variety of food and drink items.</p>
+        <a href="https://github.com/ankit-kr-maurya-82/Python-Projects/blob/main/foodMenu.py" class="text-indigo-500 hover:underline">View Project →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+    <!-- Skills -->
+    <section class="py-16 max-w-4xl mx-auto px-4" data-aos="fade-left">
+        <h3 class="text-3xl font-semibold mb-6">Skills</h3>
+        <ul class="list-disc list-inside text-gray-700">
+            <li>HTML, CSS, JavaScript</li>
+            <li>Python</li>
+            <li>Bootstrap, Tailwind CSS</li>
+            <li>React.js, Node.js</li>
+            <li>Responsive Web Design</li>
+            <li>Version Control (Git)</li>
+            <li>Web Development Best Practices</li>
+        </ul>
+    </section>
+  <!-- Education -->
+    <section class="py-16 max-w-4xl mx-auto px-4" data-aos="fade-right">
+        <h3 class="text-3xl font-semibold mb-6">Education</h3>
+        <p class="text-gray-700 mb-4">Diploma in Web Development and Design</p>
+        <p class="text-gray-700">Samyak Computer Classes, 2025</p>
+    </section>
+
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 max-w-4xl mx-auto px-4" data-aos="fade-left">
+    <h3 class="text-3xl font-semibold mb-6">Contact</h3>
+    <p class="text-gray-700 mb-4">Feel free to connect with me on social platforms or send a message.</p>
+    <div class="flex space-x-6">
+      <a href="https://github.com/Ankit-Kumar-Maurya2430" target="_blank" class="text-indigo-600 hover:underline">GitHub</a>
+      <a href="https://www.linkedin.com/in/ankit-kumar-maurya-ba4390334/" target="_blank" class="text-indigo-600 hover:underline">LinkedIn</a>
+      <a href="https://www.instagram.com/_.ankit._82/" target="_blank" class="text-indigo-600 hover:underline">Instagram</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white text-center py-6 mt-12" data-aos="fade-up">
+    <p>&copy; 2025 Ankit Kumar Maurya. All rights reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  </script>
+
+
+<script>
+  const cursor = document.getElementById('cursor');
+
+  window.addEventListener('mousemove', e => {
+    cursor.style.left = e.clientX + 'px';
+    cursor.style.top = e.clientY + 'px';
+  });
+
+  const hoverTargets = document.querySelectorAll('a, button');
+
+  hoverTargets.forEach(el => {
+    el.addEventListener('mouseenter', () => {
+      cursor.classList.add('hovered');
+    });
+    el.addEventListener('mouseleave', () => {
+      cursor.classList.remove('hovered');
+    });
+  });
+
+  
+
+</script>
+</body>
+</html>

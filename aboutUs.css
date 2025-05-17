@@ -1,0 +1,33 @@
+
+
+
+
+.prof{
+    /* background-color: firebrick; */
+    width: 600px;
+    padding: 4px;
+    text-align: left;
+}
+
+
+
+.about_one{
+    width: 500px;
+    height: 250px;
+    background-color: transparent;
+    padding: 23px;
+    line-height: 24px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+}
+
+.about_one>h1{
+    font-size: 31px;
+    margin-bottom: 12px;
+}
+
+.about_one>.button{
+    position: absolute;
+    bottom: 22px;
+}

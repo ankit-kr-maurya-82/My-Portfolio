@@ -1,0 +1,112 @@
+/* style.css */
+
+/* Use Poppins font */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+#cursor {
+  mix-blend-mode: difference; /* makes it visible on any bg */
+  z-index: 9999;
+  background-color: transparent;
+  transition: width 0.3s ease, height 0.3s ease, border-color 0.3s ease;
+}
+
+#cursor.hovered {
+  width: 40px;
+  height: 40px;
+  border-color: #7c3aed; /* Tailwind indigo-600 */
+}
+
+
+/* hero section */
+/* height full */
+#hero-section {
+  height: 200vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  background-color: #4d5257; /* Tailwind gray-100 */
+  color: #f9fafb; /* Tailwind gray-100 */
+  top:100px;
+  background-color: #7c3aed;
+ 
+}
+
+#projects{
+  background-color: #4831
+}
+
+
+
+/* responsive  */
+
+/* header section */
+/* height full */
+
+@media screen and (max-width: 768px) {
+  header{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  background-color: #4d5257; /* Tailwind gray-100 */
+  color: #f9fafb; /* Tailwind gray-100 */
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+header p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+header a {
+  font-size: 1.25rem;
+  padding: 0.5rem 1rem;
+  background-color: #7c3aed; /* Tailwind indigo-600 */
+  color: #f9fafb; /* Tailwind gray-100 */
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+header a:hover {
+  background-color: #6b21a8; /* Tailwind indigo-700 */
+  color: #f9fafb; /* Tailwind gray-100 */
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+}
+
+/* hero section */
+/* height full */
+
+
+
+  #hero-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    background-color: #4d5257; /* Tailwind gray-100 */
+    color: #f9fafb; /* Tailwind gray-100 */
+  }
+
+
+  
+}
